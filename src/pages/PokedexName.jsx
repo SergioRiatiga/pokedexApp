@@ -26,7 +26,7 @@ const PokedexName = () => {
               <img src="../../public/Pokédex.svg" alt="logo pokedex" />
               </div>
               <div className="pokedexName__header-backgroundLogo">
-              <img className="pokedexName__header-backgroundLogo-img"src="../../public/belt2.svg" alt="" />
+              <img className="pokedexName__header-backgroundLogo-img"src="../../public/belt2.jpg" alt="" />
               </div>
             </header>
             <section className={`cardInfo ${pokemon?.types[0].type.name}`}>

@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home__title">
-        <img src="../../public/Pokédex.svg" alt="logoPokedex" />
+        <img src="../../public/Pokédex.jpg" alt="logoPokedex" />
       </div>
       <h2 className="home__greetings">Hello trainer!</h2>
       <p className="home_pargraph">To get started, give me your trainer's name.</p>
@@ -34,7 +34,7 @@ const Home = () => {
         <button className="home__btn">Catch them all!</button>
       </form>
       <footer className="home__footer">
-        <img  className="home__belt" src="../../public/belt.svg" alt="" />
+        <img  className="home__belt" src="../../public/belt.jpg" alt="" />
         <p className="personal__info">Sergio Andrés Riatiga Ibáñez, sergioriatiga@gmail.com, <a href="https://github.com/SergioRiatiga" target="_blank">github</a>.</p>
       
       </footer>

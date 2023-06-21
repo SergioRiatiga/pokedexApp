@@ -68,7 +68,7 @@ const Pokedex = () => {
         <img src="../../public/Pokédex.svg" alt="logo pokedex" />
         </div>
         <div className="pokedex__backgroundLogo">
-        <img className="pokedex__backgroundLogo-img"src="../../public/belt2.svg" alt="" />
+        <img className="pokedex__backgroundLogo-img"src="../../public/belt2.jpg" alt="" />
         </div>
       </header>
       <p className="pokedex__welcome">
