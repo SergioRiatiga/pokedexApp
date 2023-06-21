@@ -16,10 +16,10 @@ const Paginacion = ({pagina, setPagina, maximo}) => {
 
   return (
     <div className='btns'>
-      <button className='btnmove' onClick={backPage}><i class='bx bx-left-arrow' ></i></button>
+      <button className='btnmove' onClick={backPage}><i className='bx bx-left-arrow' ></i></button>
       <input  className = 'count' name='page' autoComplete='off' value={input} type="text" />
       <p className='paginacion__p'>of   {Math.ceil(maximo)}</p>
-      <button className='btnmove' onClick={nextPage}><i class='bx bx-right-arrow'></i></button>
+      <button className='btnmove' onClick={nextPage}><i className='bx bx-right-arrow'></i></button>
     </div>
   )
 }
