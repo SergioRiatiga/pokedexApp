@@ -1,0 +1,510 @@
+/* COLORS */
+
+.normal {
+  color: #735259;
+  border: 0.5em solid #735259;
+}
+.bg-normal {
+  background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bg-btn-normal {
+  background-color:  #735259;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.fighting {
+  color: #96402A;
+  border: 0.5em solid #96402A;
+}
+.bg-fighting {
+  background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-btn-fighting {
+  background-color:  #96402A;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.flying {
+  color: #52aee4;
+  border: 0.5em solid #52aee4;
+}
+.bg-flying {
+  background: linear-gradient(176.83deg, #52aee4 -8.78%, #447d9e 169.09%, #5d68cb 242.33%);
+}
+.bg-btn-flying {
+  background-color:  #52aee4;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.poison {
+  color:#5B3184;
+  border: 0.5em solid #5B3184;
+}
+.bg-poison {
+  background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+.bg-btn-poison {
+  background-color:  #5B3184;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.ground {
+  color: #654008;
+  border: 0.5em solid #654008;
+}
+.bg-ground {
+  background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+.bg-btn-ground {
+  background-color:  #654008;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.rock {
+  color: #7E7E7E;
+  border: 0.5em solid #7E7E7E;
+}
+.bg-rock {
+  background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-btn-rock {
+  background-color:  #7E7E7E;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.bug {
+  color: #4AB648;
+  border: 0.5em solid #4AB648;
+}
+.bg-bug {
+  background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-btn-bug {
+  background-color:  #4AB648;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.ghost {
+  color: #323569;
+  border: 0.5em solid #323569;
+}
+.bg-ghost {
+  background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+.bg-btn-ghost {
+  background-color:  #323569;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.steel {
+  color: #5E736C;
+  border: 0.5em solid #5E736C;
+}
+.bg-steel {
+  background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+.bg-btn-steel {
+  background-color:  #5E736C;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.fire {
+  color: #E75C35;
+  border: 0.5em solid #E75C35;
+}
+.bg-fire {
+  background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-btn-fire {
+  background-color:  #E75C35;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.water {
+  color: #1479FB;
+  border: 0.5em solid #1479FB;
+}
+.bg-water {
+  background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-btn-water {
+  background-color:  #1479FB;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.grass {
+  color: #416460;
+  border: 0.5em solid #B1DBBC;
+}
+.bg-grass {
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-btn-grass {
+  background-color:  #B1DBBC;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.electric {
+  color: #f0de1e;
+  border: 0.5em solid #f0de1e;
+}
+.bg-electric {
+  background: linear-gradient(178.92deg, #ebe240 0.92%, #f0de1e 47.96%, #dad15d 99.08%);
+}
+.bg-btn-electric {
+  background-color:  #f0de1e;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.psychic {
+  color: #0C1395;
+  border: 0.5em solid #0C1395;
+}
+.bg-psychic {
+  background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+}
+.bg-btn-psychic {
+  background-color:  #0C1395;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.ice {
+  color: #6FBEDF;
+  border: 0.5em solid #6FBEDF;
+}
+.bg-ice {
+  background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-btn-ice {
+  background-color:  #6FBEDF;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.dragon {
+  color: #478A93;
+  border: 0.5em solid #478A93;
+}
+.bg-dragon {
+  background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-btn-dragon {
+  background-color:  #478A93;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.dark {
+  color: #030706;
+  border: 0.5em solid #030706;
+}
+.bg-dark {
+  background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-btn-dark {
+  background-color:  #030706;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+.fairy {
+  color: #971B45;
+  border: 0.5em solid #971B45;
+}
+.bg-fairy {
+  background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+.bg-btn-fairy {
+  background-color:  #971B45;
+  color: #fff;
+  padding: 0.2em 0.5em;
+}
+
+/* PROGRESS BARS */
+
+progress {
+  border-radius: 0; 
+  width: 100%;
+  height: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+progress::-webkit-progress-bar {
+  background: #00000010;
+}
+progress::-webkit-progress-value {
+  background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+}
+
+/* HEADER */
+.pokedexName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  font-size: 1rem;
+}
+.pokedexName__header-logo {
+  position: absolute;
+  width: 8em;
+  margin: 0.3em 1.3em;
+}
+.pokedexName__header-backgroundLogo {
+  height: 7vh;
+}
+.pokedexName__header-backgroundLogo-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* FIRST CARD */
+.cardInfo{
+  width: 100%;
+  max-width: 340px;
+  font-size: 1rem;
+  margin-top: 5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+.cardInfo__header {
+  aspect-ratio: 3;
+  position: relative;
+  background-color: #ccc;
+}
+.cardInfo__img{
+  position: absolute;
+  width: 60%;
+  top: -6em;
+  left: 20%;
+}
+.cardInfo__idBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+}
+.cardInfo__id {
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  border: 0.1em solid #ccc;
+  border-radius: 0.2em;
+  padding: 0.1em 0.5em;
+}
+.cardInfo__nameBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardInfo__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  background-color: #fff;
+  z-index: 1;
+  padding: 0.1em 0.5em;
+}
+.cardInfo__name-hr {
+  position: absolute;
+  width: 90%;
+  top: 1em;
+  left: 5%;
+  opacity: 0.5;
+}
+.cardInfo__listPhysical {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  color: #00000090;
+  margin: 1em;
+}
+.cardInfo__listPhysical-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.cardInfo__listPhysical-label {
+  font-size: 0.9em;
+}
+.cardInfo__listPhysical-value {
+  font-weight: bold;
+}
+.cardInfo__typeAbility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  color: #00000090;
+  margin: 1em;
+}
+.cardInfo__typeAbility-typeTitle {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.cardInfo__typeAbility-typeList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.cardInfo__typeAbility-typeList-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardInfo__typeAbility-abilityTitle {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.cardInfo__typeAbility-abilityList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.cardInfo__typeAbility-abilityList-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #ccc;
+  padding: 0.1em 0.4em;
+  color: #00000090;
+}
+.stats__titleBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stats__title {
+  text-transform: capitalize;
+  align-self: self-start;
+  font-size: 1.5em;
+  background-color: #fff;
+  z-index: 1;
+  padding: 0.1em 0.5em;
+  color: #00000090;
+}
+.stats__title-hr {
+  position: absolute;
+  width: 90%;
+  top: 1em;
+  left: 5%;
+  opacity: 0.5;
+}
+.stats__list {
+  padding: 1em;
+}
+.stats__listItems {
+  margin-bottom: 1em;
+  gap: 0.1em;
+  display: flex;
+  flex-direction: column;
+}
+.stats__listItems-box {
+  display: flex;
+  justify-content: space-between;
+  color: #00000090;
+}
+.stats__listItems-label {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* SECOND CARD */
+.movements {
+  width: 100%;
+  max-width: 340px;
+  font-size: 1rem;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+.movements__titleBox {
+  margin-top: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.movements__title {
+  text-transform: capitalize;
+  align-self: self-start;
+  font-size: 1.5em;
+  background-color: #fff;
+  z-index: 1;
+  padding: 0.1em 0.5em;
+  color: #00000090;
+}
+.movements__title-hr {
+  position: absolute;
+  width: 90%;
+  top: 1em;
+  left: 5%;
+  opacity: 0.5;
+}
+.movements__list {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em 0.2em;
+  justify-items: center;
+
+}
+.movements__item {
+  background-color: #00000010;
+  border-radius: 0.7em;
+  padding: 0.3em;
+}
+
+@media (min-width: 450px) {
+  
+  .pokedexName__header-backgroundLogo {
+    width: 100vw;
+  }
+  .cardInfo{
+    width: 90%;
+    max-width: 800px;
+    margin-top: 10em;
+  }
+  .cardInfo__img {
+    position: absolute;
+    width: 40%;
+    top: -50%;
+    left: 30%;
+  }
+  .movements {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 2em;
+  }
+  .movements__list {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

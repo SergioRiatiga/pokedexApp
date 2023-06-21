@@ -1,0 +1,29 @@
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.btnmove{
+  padding: 0.3em 0.5em 0.2em 0.5em;
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #D93F3F;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.3em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.paginacion__p {
+  font-size: 1.3em;
+  padding-top: 0.3em;
+}
+.count {
+  padding-top: 0.3em;
+  border: none;
+  font-size: 1.3em;
+  display: flex;
+  width: 7%;
+}
